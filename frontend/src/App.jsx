@@ -12,7 +12,7 @@ function App() {
   const handleUrlSubmit = async () => {
     setLoading(true);
     try {
-      const response = await axios.post('http://0.0.0.0:8000/extract', { 
+      const response = await axios.post('https://product-upload-notabc.replit.app/extract', { 
         url: productUrl 
       });
       
